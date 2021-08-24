@@ -60,6 +60,8 @@
 - 每次提交，Git都把它们串成一条时间线，这条时间线就是一个分支
 - 在Git里，这个分支叫主分支，即`master`分支。`HEAD`严格来说不是指向提交，而是指向`master`，`master`才是指向提交的，所以，`HEAD`指向的就是当前分支。
 
+## 图解分支
+
 一开始的时候，`master`分支是一条线，Git用`master`指向最新的提交，再用`HEAD`指向`master`，就能确定当前分支，以及当前分支的提交点：
 
 ![git-br-initial](https://cdn.jsdelivr.net/gh/chenruida/image@master/uPic/0-20210824110920893sQNjYi.png)
