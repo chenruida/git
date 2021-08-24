@@ -38,4 +38,11 @@
 
   ![git-stage-after-commit](https://www.liaoxuefeng.com/files/attachments/919020100829536/0)
 
-  
+## 撤销修改
+
+- git checkout -- file 丢弃工作区的修改
+  - 自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+  - 已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+  - `git checkout -- file`命令中的`--`很重要，没有`--`，就变成了“切换到另一个分支”的命令
+- git reset 把暂存区的修改回退到工作区
+
