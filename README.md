@@ -101,3 +101,10 @@
 
 ![git-br-rm](https://cdn.jsdelivr.net/gh/chenruida/image@master/uPic/0yF0U5B.png)
 
+## 创建和合并分支
+
+- ```git checkout -b  (branch name)``` 创建分支
+- `git branch`命令查看当前分支
+- ```git checkout (branch name)```切换分支
+- `git merge`命令用于合并指定分支到当前分支。
+- `git branch -b ` 删除分支
