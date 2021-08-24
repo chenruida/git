@@ -22,3 +22,20 @@
 
 - git reflog 查看每一次操作记录
 
+## 工作区和暂存区
+
+- 工作区 电脑里看到的目录
+
+- 版本库 .git文件目录
+
+- 添加进版本库工作流程
+
+  1. git add 把文件添加进去，实际上就是把文件修改添加到暂存区；
+
+  ![git-stage](https://www.liaoxuefeng.com/files/attachments/919020074026336/0)
+
+  2. git commit 提交更改，实际上就是把暂存区的所有内容提交到当前分支。
+
+  ![git-stage-after-commit](https://www.liaoxuefeng.com/files/attachments/919020100829536/0)
+
+  
