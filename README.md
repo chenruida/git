@@ -3,9 +3,22 @@
 ## 查看状态
 
 - git status 掌握仓库当前的状态
+
+![image-20210824103455395](https://cdn.jsdelivr.net/gh/chenruida/image@master/uPic/image-2021082410345539565VMKz.png)
+
 - git diff 查看difference
+
+![image-20210824103531284](https://cdn.jsdelivr.net/gh/chenruida/image@master/uPic/image-20210824103531284NU0MNp.png)
 
 ## 版本回退
 
+- git log 查看历史记录
 
+![image-20210824103642709](https://cdn.jsdelivr.net/gh/chenruida/image@master/uPic/image-202108241036427092KCytl.png)
+
+- git reset --head (commit id)
+  - --hard 指向版本的指针
+    - ![image-20210824103901208](https://cdn.jsdelivr.net/gh/chenruida/image@master/uPic/image-20210824103901208bhX1E6.png)
+
+- git reflog 查看每一次操作记录
 
